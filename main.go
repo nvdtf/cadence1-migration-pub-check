@@ -1,12 +1,18 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
 
-	r := ListStagedContracts()
-	fmt.Println(r)
+	allContracts := ListStagedContracts()
+
+	for address, contracts := range allContracts {
+		for _, contract := range contracts {
+			// fmt.Printf("Address: %s, Contract: %s\n", address, contract)
+			code := GetStagedContract(address, contract)
+			Check(code)
+			// fmt.Println(code)
+			// break
+		}
+		// break
+	}
 
 }

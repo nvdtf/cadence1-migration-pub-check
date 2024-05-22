@@ -7,12 +7,12 @@ import (
 	"github.com/onflow/cadence/runtime/ast"
 	"github.com/onflow/cadence/runtime/common"
 	"github.com/onflow/cadence/runtime/parser"
-	"github.com/onflow/cadence/runtime/sema"
 )
 
 func Check(code string) {
 	program, err := parser.ParseProgram(nil, []byte(code), parser.Config{})
 	if err != nil {
+		fmt.Println(code)
 		panic(err)
 	}
 
@@ -35,7 +35,11 @@ func Check(code string) {
 					// fmt.Println("Found: " + mem.Identifier.String())
 					// fmt.Println("Implements: " + implements)
 
-					interfaceFunctions := interfaces[implements]
+					interfaceFunctions, exists := interfaces[implements]
+					if !exists {
+						fmt.Printf("Interface %s not found (%s)\n", implements, mem.Identifier.String())
+						continue
+					}
 
 					// compare list of functions to find newly exposed functions
 					for _, f := range mem.Members.Functions() {
@@ -49,33 +53,33 @@ func Check(code string) {
 					}
 
 				} else if len(mem.Conformances) > 1 {
-					panic("Multiple conformances not supported")
+					fmt.Println("Multiple conformances not supported")
 				}
 
 			}
 		}
 	}
 
-	config := &sema.Config{}
-	if config.AccessCheckMode == sema.AccessCheckModeDefault {
-		config.AccessCheckMode = sema.AccessCheckModeNotSpecifiedUnrestricted
-	}
-	config.ExtendedElaborationEnabled = true
+	// config := &sema.Config{}
+	// if config.AccessCheckMode == sema.AccessCheckModeDefault {
+	// 	config.AccessCheckMode = sema.AccessCheckModeNotSpecifiedUnrestricted
+	// }
+	// config.ExtendedElaborationEnabled = true
 
-	checker, err := sema.NewChecker(
-		program,
-		common.StringLocation("test"),
-		nil,
-		config,
-	)
-	if err != nil {
-		panic(err)
-	}
+	// checker, err := sema.NewChecker(
+	// 	program,
+	// 	common.StringLocation("test"),
+	// 	nil,
+	// 	config,
+	// )
+	// if err != nil {
+	// 	panic(err)
+	// }
 
-	err = checker.Check()
-	if err != nil {
-		panic(err)
-	}
+	// err = checker.Check()
+	// if err != nil {
+	// 	panic(err)
+	// }
 }
 
 // returns list of interfaces and their functions
