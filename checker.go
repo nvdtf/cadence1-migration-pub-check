@@ -30,39 +30,32 @@ func Check(code string) {
 			if mem.CompositeKind == common.CompositeKindResource {
 
 				// check if resource implements an interface
-				if len(mem.Conformances) == 1 {
-
-					implements := mem.Conformances[0].String()
-
-					// fmt.Println("Found: " + mem.Identifier.String())
-					// fmt.Println("Implements: " + implements)
-
-					interfaceFunctions, exists := interfaces[implements]
+				var unionInterfaceFunctions []string
+				for _, intName := range mem.Conformances {
+					intNameStr := intName.String()
+					functions, exists := interfaces[intNameStr]
 					if !exists {
-						interfaceFunctions, err = GetExternalInterfaceFunctions(code, implements)
+						functions, err = GetExternalInterfaceFunctions(code, intNameStr)
 						if err != nil {
 							fmt.Println(err)
 							continue
 						}
-						// fmt.Printf("Interface %s not found (%s)\n", implements, mem.Identifier.String())
-						// continue
 					}
+					unionInterfaceFunctions = append(unionInterfaceFunctions, functions...)
+				}
 
-					// compare list of functions to find newly exposed functions
+				// compare list of functions to find newly exposed functions
+				if len(unionInterfaceFunctions) > 0 {
 					for _, f := range mem.Members.Functions() {
-						if !slices.Contains(interfaceFunctions, f.Identifier.String()) {
+						if !slices.Contains(unionInterfaceFunctions, f.Identifier.String()) {
 
 							// check public
 							if f.Access == ast.AccessAll {
-								fmt.Printf("Resource %s: %s is exposing %s\n", mem.Identifier.String(), implements, f.Identifier.String())
+								fmt.Printf("Resource %s is exposing %s\n", mem.Identifier.String(), f.Identifier.String())
 							}
 						}
 					}
-
-				} else if len(mem.Conformances) > 1 {
-					fmt.Printf("Multiple conformances not supported: %s \n", mem.Conformances)
 				}
-
 			}
 		}
 	}
