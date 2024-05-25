@@ -1,21 +1,27 @@
 Address: 0xf9dad0d4c14a92b5, Contract: wFlow
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0xf9dad0d4c14a92b5_wFlow
 Resource MinterProxy is exposing mintTokens
+
 Address: 0xf9dad0d4c14a92b5, Contract: USDT
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0xf9dad0d4c14a92b5_USDT
 Resource MinterProxy is exposing mintTokens
+
 ddress: 0xf9dad0d4c14a92b5, Contract: USDC
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0xf9dad0d4c14a92b5_USDC
 Resource MinterProxy is exposing mintTokens
+
 Address: 0xf9dad0d4c14a92b5, Contract: BUSD
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0xf9dad0d4c14a92b5_BUSD
 Resource MinterProxy is exposing mintTokens
+
+-----------------------------------------------------------------------------
 
 Address: 0x99ca04281098b33d, Contract: Marketplace
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0x99ca04281098b33d_Marketplace
 Resource SaleCollection is exposing withdraw
 Resource SaleCollection is exposing listForSale
 Resource SaleCollection is exposing changePrice
+
 Address: 0x99ca04281098b33d, Contract: Versus
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0x99ca04281098b33d_Versus
 Resource DropCollection is exposing withdraw
@@ -26,14 +32,18 @@ Resource Admin is exposing createDrop
 Resource Admin is exposing mintArt
 Resource Admin is exposing editionArt
 Resource Admin is exposing editionAndDepositArt
+
 Address: 0x99ca04281098b33d, Contract: Content
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0x99ca04281098b33d_Content
 Resource Collection is exposing withdraw
+
 Address: 0x99ca04281098b33d, Contract: Auction
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0x99ca04281098b33d_Auction
 Resource AuctionCollection is exposing extendAllAuctionsWith
 Resource AuctionCollection is exposing settleAuction
 Resource AuctionCollection is exposing cancelAuction
+
+-----------------------------------------------------------------------------
 
 Address: 0xc7c122b5b811de8e, Contract: OrdinalVendor
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0xc7c122b5b811de8e_OrdinalVendor
@@ -41,24 +51,35 @@ Resource Vendor is exposing setPrice
 Resource Vendor is exposing setPaymentReceiver
 Resource Vendor is exposing updatePaymentReceiver
 
+-----------------------------------------------------------------------------
+
 Address: 0x35717efbbce11c74, Contract: FindMarketAuctionSoft
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0x35717efbbce11c74_FindMarketAuctionSoft
 Resource SaleItem is exposing setValidUntil
+
 Address: 0x35717efbbce11c74, Contract: FindMarketAuctionEscrow
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0x35717efbbce11c74_FindMarketAuctionEscrow
 Resource SaleItem is exposing acceptEscrowedBid
+
+-----------------------------------------------------------------------------
 
 Address: 0xe1d43e0cfc237807, Contract: Flowty
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0xe1d43e0cfc237807_Flowty
 Resource Funding is exposing repayWithPermit
 
+-----------------------------------------------------------------------------
+
 Address: 0x6b7930acbcd12877, Contract: Cryptoys
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0x6b7930acbcd12877_Cryptoys
-esource Collection is exposing withdrawBucketItem
+Resource Collection is exposing withdrawBucketItem
+
+-----------------------------------------------------------------------------
 
 Address: 0x51ea0e37c27a1f1a, Contract: TokenForwarding
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0x51ea0e37c27a1f1a_TokenForwarding
 Resource Forwarder is exposing changeRecipient
+
+-----------------------------------------------------------------------------
 
 Address: 0x1c5033ad60821c97, Contract: Admin
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0x1c5033ad60821c97_Admin
@@ -97,6 +118,7 @@ Resource AdminProxy is exposing registerTransaction
 Resource AdminProxy is exposing mintPack
 Resource AdminProxy is exposing addPackType
 Resource AdminProxy is exposing updatePackRevealBlocks
+
 Address: 0x1c5033ad60821c97, Contract: Teleport
 https://f.dnz.dev/0x2ceae959ed1a7e7a/0x1c5033ad60821c97_Teleport
 Resource TeleportProxy is exposing teleport
