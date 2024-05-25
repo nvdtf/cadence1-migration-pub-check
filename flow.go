@@ -60,7 +60,7 @@ func ListStagedContracts() map[string][]string {
 
 }
 
-func GetStagedContract(address string, name string) string {
+func GetStagedContract(address string, name string) (string, bool) {
 
 	ctx := context.Background()
 	flowClient, err := http.NewClient(http.TestnetHost)
@@ -71,8 +71,9 @@ func GetStagedContract(address string, name string) string {
 	script := []byte(`
 		import MigrationContractStaging from 0x2ceae959ed1a7e7a
 
-		access(all) fun main(contractAddress: Address, contractName: String): String {
-			return MigrationContractStaging.getStagedContractCode(address: contractAddress, name: contractName)!
+		access(all) fun main(contractAddress: Address, contractName: String): String? {
+			return MigrationContractStaging.getStagedContractCode(address: contractAddress, name: contractName)
+			//return "\n"
 		}
     `)
 
@@ -96,15 +97,27 @@ func GetStagedContract(address string, name string) string {
 
 	// res := value.(cadence.String).String()
 
-	res := strings.Trim(value.String(), "\"")
-	res = strings.ReplaceAll(res, "\\\\n", "doobidydoo")
-	res = strings.ReplaceAll(res, "\\n", "\n")
-	res = strings.ReplaceAll(res, "doobidydoo", "\\\\n")
-	res = strings.ReplaceAll(res, "\\\"", "\"")
-	res = strings.ReplaceAll(res, "\\t", "\t")
-	res = strings.ReplaceAll(res, "\\", "\"")
-	res = strings.ReplaceAll(res, "\"\"\"", "\\\"")
-	res = strings.ReplaceAll(res, "\"\"n\"\"", "\\n")
+	optValue, ok := value.(cadence.Optional)
+	if !ok {
+		panic("not optional")
+	}
+	if optValue.Value == nil {
+		return "", false
+	}
 
-	return res
+	res := optValue.Value.(cadence.String).String()
+
+	res = strings.Trim(res, "\"")
+	res = strings.ReplaceAll(res, "\\\\n", "new_line_in_string")
+	res = strings.ReplaceAll(res, "\\n", "\n")
+	res = strings.ReplaceAll(res, "new_line_in_string", "\\\\n")
+	res = strings.ReplaceAll(res, "\\r", "\r")
+	res = strings.ReplaceAll(res, "\\\"", "\"")
+	res = strings.ReplaceAll(res, "\\\\\"", "\\\"")
+	res = strings.ReplaceAll(res, "\\t", "\t")
+	// res = strings.ReplaceAll(res, "\\", "\"")
+	// res = strings.ReplaceAll(res, "\"\"\"", "\\\"")
+	// res = strings.ReplaceAll(res, "\"\"n\"\"", "\\n")
+
+	return res, true
 }
