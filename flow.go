@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"os"
 	"strings"
 
 	"github.com/onflow/cadence"
@@ -62,6 +63,26 @@ func ListStagedContracts() map[string][]string {
 
 func GetStagedContract(address string, name string) (string, bool) {
 
+	// fungible token
+	if address == "9a0766d93b6608b7" && name == "FungibleToken" {
+		return GetStagedFungibleToken(), true
+	}
+
+	// non-fungible token
+	if address == "631e88ae7f1d7c20" && name == "NonFungibleToken" {
+		return GetStagedNonFungibleToken(), true
+	}
+
+	// view resolver
+	if address == "631e88ae7f1d7c20" && name == "ViewResolver" {
+		return GetStagedViewResolver(), true
+	}
+
+	// burner
+	if address == "9a0766d93b6608b7" && name == "Burner" {
+		return GetStagedBurner(), true
+	}
+
 	ctx := context.Background()
 	flowClient, err := http.NewClient(http.TestnetHost)
 	if err != nil {
@@ -120,4 +141,36 @@ func GetStagedContract(address string, name string) (string, bool) {
 	// res = strings.ReplaceAll(res, "\"\"n\"\"", "\\n")
 
 	return res, true
+}
+
+func GetStagedFungibleToken() string {
+	res, err := os.ReadFile("contracts/ft.cdc")
+	if err != nil {
+		panic(err)
+	}
+	return string(res)
+}
+
+func GetStagedNonFungibleToken() string {
+	res, err := os.ReadFile("contracts/nft.cdc")
+	if err != nil {
+		panic(err)
+	}
+	return string(res)
+}
+
+func GetStagedViewResolver() string {
+	res, err := os.ReadFile("contracts/view-resolver.cdc")
+	if err != nil {
+		panic(err)
+	}
+	return string(res)
+}
+
+func GetStagedBurner() string {
+	res, err := os.ReadFile("contracts/burner.cdc")
+	if err != nil {
+		panic(err)
+	}
+	return string(res)
 }

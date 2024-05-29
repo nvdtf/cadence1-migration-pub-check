@@ -48,6 +48,10 @@ func Check(code string) {
 				if len(unionInterfaceFunctions) > 0 {
 					for _, f := range mem.Members.Functions() {
 						if !slices.Contains(unionInterfaceFunctions, f.Identifier.String()) {
+							// check ignore list
+							if ShouldIgnoreFunctionName(f.Identifier.String()) {
+								continue
+							}
 
 							// check public
 							if f.Access == ast.AccessAll {
@@ -147,4 +151,29 @@ func GetExternalInterfaceFunctions(code string, name string) ([]string, error) {
 	}
 
 	return res, nil
+}
+
+func ShouldIgnoreFunctionName(name string) bool {
+	// ignore list
+	ignoreList := []string{
+		"getSupportedNFTTypes",
+		"isSupportedNFTType",
+		"getIDs",
+		"borrowViewResolver",
+		"getViews",
+		"resolveView",
+		"isAvailableToWithdraw",
+		"borrowNFT",
+		"createEmptyCollection",
+	}
+	if slices.Contains(ignoreList, name) {
+		return true
+	}
+
+	// ignore functions with getter prefixes
+	if strings.HasPrefix(name, "get") {
+		return true
+	}
+
+	return false
 }
