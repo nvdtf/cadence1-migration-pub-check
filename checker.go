@@ -165,6 +165,14 @@ func ShouldIgnoreFunctionName(name string) bool {
 		"isAvailableToWithdraw",
 		"borrowNFT",
 		"createEmptyCollection",
+		"assetPath",
+		"name",
+		"description",
+		"mediumimage",
+		"thumbnail",
+		"video",
+		"fetchPrice",
+		"deposit",
 	}
 	if slices.Contains(ignoreList, name) {
 		return true
