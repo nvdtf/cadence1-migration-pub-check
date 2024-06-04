@@ -178,10 +178,26 @@ func ShouldIgnoreFunctionName(name string) bool {
 		return true
 	}
 
-	// ignore functions with getter prefixes
-	if strings.HasPrefix(name, "get") {
-		return true
+	// ignore read prefixes
+	prefixList := []string{
+		"get",
+		"is",
+		"has",
+		"borrow",
+		"resolve",
+	}
+	for _, p := range prefixList {
+		if HasPrefix(name, p) {
+			return true
+		}
 	}
 
 	return false
+}
+
+func HasPrefix(s string, prefix string) bool {
+	// prefix + capital letter
+	r, _ := regexp.Compile(fmt.Sprintf("^%s[A-Z]", prefix))
+	matches := r.FindAllStringSubmatch(s, -1)
+	return len(matches) > 0
 }
