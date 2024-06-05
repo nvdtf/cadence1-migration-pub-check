@@ -11,7 +11,14 @@ import (
 	"github.com/onflow/cadence/runtime/parser"
 )
 
-func Check(code string) {
+type CheckerResult struct {
+	resourceName string
+	functionName string
+}
+
+func Check(code string) []CheckerResult {
+	res := make([]CheckerResult, 0)
+
 	program, err := parser.ParseProgram(nil, []byte(code), parser.Config{})
 	if err != nil {
 		// fmt.Println(code)
@@ -55,7 +62,11 @@ func Check(code string) {
 
 							// check public
 							if f.Access == ast.AccessAll {
-								fmt.Printf("Resource %s is exposing %s\n", mem.Identifier.String(), f.Identifier.String())
+								// fmt.Printf("Resource %s is exposing %s\n", mem.Identifier.String(), f.Identifier.String())
+								res = append(res, CheckerResult{
+									resourceName: mem.Identifier.String(),
+									functionName: f.Identifier.String(),
+								})
 							}
 						}
 					}
@@ -63,6 +74,8 @@ func Check(code string) {
 			}
 		}
 	}
+
+	return res
 
 	// config := &sema.Config{}
 	// if config.AccessCheckMode == sema.AccessCheckModeDefault {
@@ -156,13 +169,8 @@ func GetExternalInterfaceFunctions(code string, name string) ([]string, error) {
 func ShouldIgnoreFunctionName(name string) bool {
 	// ignore list
 	ignoreList := []string{
-		"getSupportedNFTTypes",
-		"isSupportedNFTType",
-		"getIDs",
 		"borrowViewResolver",
-		"getViews",
 		"resolveView",
-		"isAvailableToWithdraw",
 		"borrowNFT",
 		"createEmptyCollection",
 		"assetPath",
@@ -172,7 +180,6 @@ func ShouldIgnoreFunctionName(name string) bool {
 		"thumbnail",
 		"video",
 		"fetchPrice",
-		"deposit",
 	}
 	if slices.Contains(ignoreList, name) {
 		return true
@@ -183,8 +190,6 @@ func ShouldIgnoreFunctionName(name string) bool {
 		"get",
 		"is",
 		"has",
-		"borrow",
-		"resolve",
 	}
 	for _, p := range prefixList {
 		if HasPrefix(name, p) {
