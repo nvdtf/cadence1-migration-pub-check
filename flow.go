@@ -69,7 +69,7 @@ func GetStagedContract(address string, name string) (string, bool) {
 	}
 
 	// non-fungible token
-	if address == "631e88ae7f1d7c20" && name == "NonFungibleToken" {
+	if (address == "631e88ae7f1d7c20" || address == "1d7e57aa55817448") && name == "NonFungibleToken" {
 		return GetStagedNonFungibleToken(), true
 	}
 
