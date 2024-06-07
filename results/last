@@ -1,65 +1,4 @@
 ---------------------------------
-Address: 0x917db7072ed7160b, Contract: Cryptoys
-❗ Resource Collection is exposing withdrawBucketItem
----------------------------------
-Address: 0x6f6702697b205c18, Contract: HWGarageCard
-❗ Resource Collection is exposing borrowHWGarageCard
----------------------------------
-Address: 0x6f6702697b205c18, Contract: HWGaragePack
-❗ Resource Collection is exposing borrowPack
----------------------------------
-Address: 0x6f6702697b205c18, Contract: HWGarageTokenV2
-❗ Resource Collection is exposing borrowToken
----------------------------------
-Address: 0x6f6702697b205c18, Contract: HWGarageCardV2
-❗ Resource Collection is exposing borrowCard
----------------------------------
-Address: 0x6f6702697b205c18, Contract: HWGaragePackV2
-❗ Resource Collection is exposing borrowPack
----------------------------------
-Address: 0x06f1e5cde6db0e70, Contract: FlowtyDrops
-❗ Resource Drop is exposing addPhase
-❗ Resource Drop is exposing removePhase
----------------------------------
-Address: 0xa2526e2d9cc7f0d2, Contract: Pinnacle
-❗ Resource NFT is exposing resolveDisplayView
-❗ Resource NFT is exposing resolveExternalURLView
-❗ Resource NFT is exposing resolveTraitsView
-❗ Resource NFT is exposing resolveMediasView
-❗ Resource NFT is exposing resolveEditionsView
-❗ Resource NFT is exposing resolveSerialView
-❗ Resource NFT is exposing resolveRoyaltiesView
-❗ Resource Collection is exposing batchDeposit
-❗ Resource Collection is exposing borrowPinNFT
----------------------------------
-Address: 0x4ed4b8e5cd0dd15e, Contract: PackNFT
-❗ Resource PackNFTOperator is exposing createOperator
-❗ Resource PackNFTOperator is exposing setDefaultCollectionMetadata
-❗ Resource PackNFTOperator is exposing setVersion
-❗ Resource NFT is exposing totalEditions
-❗ Resource NFT is exposing _metadata
-❗ Resource NFT is exposing metadata
-❗ Resource NFT is exposing metadataDict
----------------------------------
-Address: 0xe8124d8428980aa6, Contract: Bl0x
-❗ Resource NFT is exposing increaseNounce
----------------------------------
-Address: 0x6d0f55821f6b2dbe, Contract: BBxBarbieToken
-❗ Resource Collection is exposing borrowToken
----------------------------------
-Address: 0x6d0f55821f6b2dbe, Contract: BBxBarbieCard
-❗ Resource Collection is exposing borrowCard
----------------------------------
-Address: 0x6d0f55821f6b2dbe, Contract: BBxBarbiePack
-❗ Resource Collection is exposing borrowPack
----------------------------------
-Address: 0xe1d43e0cfc237807, Contract: Flowty
-❗ Resource Funding is exposing repayWithPermit
----------------------------------
-Address: 0x3870b3d38f83ae4c, Contract: FiatToken
-❗ Resource Vault is exposing UUID
-❗ Resource MinterResource is exposing burn
----------------------------------
 Address: 0x35717efbbce11c74, Contract: FIND
 ❗ Resource LeaseCollection is exposing borrow
 ❗ Resource LeaseCollection is exposing borrowAuction
@@ -113,35 +52,28 @@ Address: 0x35717efbbce11c74, Contract: FindLeaseMarketDirectOfferSoft
 Address: 0x35717efbbce11c74, Contract: NameVoucher
 ❗ Resource Collection is exposing contains
 ---------------------------------
-Address: 0x74ad08095d92192a, Contract: FRC20Indexer
-❗ Resource InscriptionIndexer is exposing sponsorship
+Address: 0x3870b3d38f83ae4c, Contract: FiatToken
+❗ Resource Vault is exposing UUID
+❗ Resource MinterResource is exposing burn
 ---------------------------------
-Address: 0x74ad08095d92192a, Contract: FixesWrappedNFT
-❗ Resource NFT is exposing borrowInscriptionPublic
----------------------------------
-Address: 0x74ad08095d92192a, Contract: FRC20Staking
-❗ Resource DelegatorRecord is exposing entriesLength
----------------------------------
-Address: 0x74ad08095d92192a, Contract: FixesTradablePool
-❗ Resource TradableLiquidityPool is exposing borrowSwapPairRef
-❗ Resource TradableLiquidityPool is exposing borrowTokenGlobalPublic
----------------------------------
-Address: 0x74ad08095d92192a, Contract: FRC20FungibleToken
-❗ Resource Vault is exposing chargeDNAMutatableAttempts
----------------------------------
-Address: 0x74ad08095d92192a, Contract: FixesFungibleToken
-❗ Resource Vault is exposing chargeDNAMutatableAttempts
----------------------------------
-Address: 0x195caada038c5806, Contract: BarterYardClubWerewolf
-❗ Resource NFT is exposing computeThumbnail
-❗ Resource Collection is exposing borrowBarterYardClubWerewolfNFT
----------------------------------
-Address: 0x877931736ee77cff, Contract: TopShot
-❗ Resource NFT is exposing mapPlayData
-❗ Resource NFT is exposing appendOptionalParams
+Address: 0xe1d43e0cfc237807, Contract: Flowty
+❗ Resource Funding is exposing repayWithPermit
 ---------------------------------
 Address: 0xb86f928a1fa7798e, Contract: TokenList
 ❗ Resource FungibleTokenReviewer is exposing createCustomizedViewResolver
+---------------------------------
+Address: 0x58b60c5240d3f39b, Contract: TuneGONFTV5
+❗ Resource NFT is exposing totalEditions
+❗ Resource NFT is exposing circulatingEditions
+---------------------------------
+Address: 0x58b60c5240d3f39b, Contract: PackNFT
+❗ Resource PackNFTOperator is exposing createOperator
+❗ Resource PackNFTOperator is exposing setDefaultCollectionMetadata
+❗ Resource PackNFTOperator is exposing setVersion
+❗ Resource NFT is exposing totalEditions
+❗ Resource NFT is exposing _metadata
+❗ Resource NFT is exposing metadata
+❗ Resource NFT is exposing metadataDict
 ---------------------------------
 Address: 0x1c5033ad60821c97, Contract: Doodles
 ❗ Resource NFT is exposing updateDoodle
@@ -202,68 +134,18 @@ Address: 0x1c5033ad60821c97, Contract: Admin
 ❗ Resource AdminProxy is exposing addPackType
 ❗ Resource AdminProxy is exposing updatePackRevealBlocks
 ---------------------------------
-Address: 0x3e5b4c627064625d, Contract: Flomies
-❗ Resource NFT is exposing increaseNounce
----------------------------------
-Address: 0x6c35f966375845a6, Contract: TixologiTickets
-❗ Resource Collection is exposing batchWithdraw
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
-staged dependency not found: 1d7e57aa55817448.NonFungibleToken
----------------------------------
-Address: 0x6b2e1b9d3c5ac5db, Contract: ValueLink_NFT_v1
-❗ Resource Collection is exposing setSaleListed
-❗ Resource Collection is exposing setSaleUnListed
-❗ Resource Collection is exposing deleteNFT
-❗ Resource Collection is exposing updatePurchaseId
-❗ Resource Collection is exposing addDistributedToAddress
----------------------------------
-Address: 0x6b2e1b9d3c5ac5db, Contract: ValueLink_NFTMarketplace_v1
-❗ Resource SaleCollection is exposing listForSale
-❗ Resource SaleCollection is exposing unListFromSale
-❗ Resource SaleCollection is exposing deleteNFT
----------------------------------
-Address: 0x31ad40c07a2a9788, Contract: ScopedFTProviders
-❗ Resource ScopedFTProvider is exposing check
-❗ Resource ScopedFTProvider is exposing canWithdraw
----------------------------------
-Address: 0x31ad40c07a2a9788, Contract: ScopedNFTProviders
-❗ Resource ScopedNFTProvider is exposing canWithdraw
-❗ Resource ScopedNFTProvider is exposing check
----------------------------------
-Address: 0xf9dad0d4c14a92b5, Contract: BUSD
-❗ Resource MinterProxy is exposing mintTokens
----------------------------------
-Address: 0xf9dad0d4c14a92b5, Contract: USDC
-❗ Resource MinterProxy is exposing mintTokens
----------------------------------
-Address: 0xf9dad0d4c14a92b5, Contract: USDT
-❗ Resource MinterProxy is exposing mintTokens
----------------------------------
-Address: 0xf9dad0d4c14a92b5, Contract: wFlow
-❗ Resource MinterProxy is exposing mintTokens
+Address: 0x06f1e5cde6db0e70, Contract: FlowtyDrops
+❗ Resource Drop is exposing addPhase
+❗ Resource Drop is exposing removePhase
 ---------------------------------
 Address: 0x44ef9309713e2061, Contract: StakingNFT
 ❗ Resource Pool is exposing eligibilityCheck
+---------------------------------
+Address: 0xe8124d8428980aa6, Contract: Bl0x
+❗ Resource NFT is exposing increaseNounce
+---------------------------------
+Address: 0x6b7930acbcd12877, Contract: Cryptoys
+❗ Resource Collection is exposing withdrawBucketItem
 ---------------------------------
 Address: 0x4dfd62c88d1b6462, Contract: AllDay
 ❗ Resource Admin is exposing borrowSeries
@@ -279,24 +161,51 @@ Address: 0x4dfd62c88d1b6462, Contract: AllDay
 ❗ Resource Admin is exposing createEdition
 ❗ Resource Admin is exposing closeEdition
 ---------------------------------
-Address: 0x2d59ec5158e3adae, Contract: HeroesOfTheFlow
-❗ Resource NFT is exposing checkSoulbound
+Address: 0x6d0f55821f6b2dbe, Contract: BBxBarbieToken
+❗ Resource Collection is exposing borrowToken
 ---------------------------------
-Address: 0x8c55fba7d7090fee, Contract: Magnetiq
-❗ Resource NFT is exposing mapMagnetData
-❗ Resource NFT is exposing appendOptionalParams
+Address: 0x6d0f55821f6b2dbe, Contract: BBxBarbieCard
+❗ Resource Collection is exposing borrowCard
+---------------------------------
+Address: 0x6d0f55821f6b2dbe, Contract: BBxBarbiePack
+❗ Resource Collection is exposing borrowPack
 ---------------------------------
 Address: 0x0d3dc5ad70be03d1, Contract: ScopedFTProviders
 ❗ Resource ScopedFTProvider is exposing check
 ❗ Resource ScopedFTProvider is exposing canWithdraw
 ---------------------------------
-Address: 0x857dc34d5e1631d3, Contract: FLOAT
-❗ Resource Collection is exposing ownedIdsFromEvent
-❗ Resource Collection is exposing borrowFLOAT
----------------------------------
-Address: 0x723a1b50e1d67e8e, Contract: TuneGONFT
+Address: 0x4ed4b8e5cd0dd15e, Contract: PackNFT
+❗ Resource PackNFTOperator is exposing createOperator
+❗ Resource PackNFTOperator is exposing setDefaultCollectionMetadata
+❗ Resource PackNFTOperator is exposing setVersion
 ❗ Resource NFT is exposing totalEditions
-❗ Resource NFT is exposing circulatingEditions
+❗ Resource NFT is exposing _metadata
+❗ Resource NFT is exposing metadata
+❗ Resource NFT is exposing metadataDict
+---------------------------------
+Address: 0x877931736ee77cff, Contract: TopShot
+❗ Resource NFT is exposing mapPlayData
+❗ Resource NFT is exposing appendOptionalParams
+---------------------------------
+Address: 0xf9dad0d4c14a92b5, Contract: BUSD
+❗ Resource MinterProxy is exposing mintTokens
+---------------------------------
+Address: 0xf9dad0d4c14a92b5, Contract: USDC
+❗ Resource MinterProxy is exposing mintTokens
+---------------------------------
+Address: 0xf9dad0d4c14a92b5, Contract: USDT
+❗ Resource MinterProxy is exposing mintTokens
+---------------------------------
+Address: 0xf9dad0d4c14a92b5, Contract: wFlow
+❗ Resource MinterProxy is exposing mintTokens
+---------------------------------
+Address: 0x31ad40c07a2a9788, Contract: ScopedFTProviders
+❗ Resource ScopedFTProvider is exposing check
+❗ Resource ScopedFTProvider is exposing canWithdraw
+---------------------------------
+Address: 0x31ad40c07a2a9788, Contract: ScopedNFTProviders
+❗ Resource ScopedNFTProvider is exposing canWithdraw
+❗ Resource ScopedNFTProvider is exposing check
 ---------------------------------
 Address: 0x99ca04281098b33d, Contract: Content
 ❗ Resource Collection is exposing deposit
@@ -307,10 +216,128 @@ Address: 0x99ca04281098b33d, Contract: Auction
 Address: 0x99ca04281098b33d, Contract: Marketplace
 ❗ Resource SaleCollection is exposing borrowArt
 ---------------------------------
+Address: 0x8c55fba7d7090fee, Contract: Magnetiq
+❗ Resource NFT is exposing mapMagnetData
+❗ Resource NFT is exposing appendOptionalParams
+---------------------------------
+Address: 0x6b2e1b9d3c5ac5db, Contract: ValueLink_NFT_v1
+❗ Resource Collection is exposing setSaleListed
+❗ Resource Collection is exposing setSaleUnListed
+❗ Resource Collection is exposing deleteNFT
+❗ Resource Collection is exposing updatePurchaseId
+❗ Resource Collection is exposing addDistributedToAddress
+---------------------------------
+Address: 0x6b2e1b9d3c5ac5db, Contract: ValueLink_NFTMarketplace_v1
+❗ Resource SaleCollection is exposing listForSale
+❗ Resource SaleCollection is exposing unListFromSale
+❗ Resource SaleCollection is exposing deleteNFT
+---------------------------------
+Address: 0x74ad08095d92192a, Contract: FRC20Indexer
+❗ Resource InscriptionIndexer is exposing sponsorship
+---------------------------------
+Address: 0x74ad08095d92192a, Contract: FixesWrappedNFT
+❗ Resource NFT is exposing borrowInscriptionPublic
+---------------------------------
+Address: 0x74ad08095d92192a, Contract: FRC20Staking
+❗ Resource DelegatorRecord is exposing entriesLength
+---------------------------------
+Address: 0x74ad08095d92192a, Contract: FixesTradablePool
+❗ Resource TradableLiquidityPool is exposing borrowSwapPairRef
+❗ Resource TradableLiquidityPool is exposing borrowTokenGlobalPublic
+---------------------------------
+Address: 0x74ad08095d92192a, Contract: FRC20FungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0x74ad08095d92192a, Contract: FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0x74ad08095d92192a, Contract: FungibleTokenManager
+❗ Resource Admin is exposing stageAllChildrenContracts
+---------------------------------
+Address: 0x520a7157e1b964ed, Contract: ShebaHopeGrows
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
 Address: 0x683564e46977788a, Contract: MFLClub
 ❗ Resource Collection is exposing foundClub
 ---------------------------------
-Address: 0x6b7930acbcd12877, Contract: Cryptoys
+Address: 0x723a1b50e1d67e8e, Contract: TuneGONFT
+❗ Resource NFT is exposing totalEditions
+❗ Resource NFT is exposing circulatingEditions
+---------------------------------
+Address: 0x6c35f966375845a6, Contract: TixologiTickets
+❗ Resource Collection is exposing batchWithdraw
+---------------------------------
+Address: 0x2d59ec5158e3adae, Contract: HeroesOfTheFlow
+❗ Resource NFT is exposing checkSoulbound
+---------------------------------
+Address: 0x3e5b4c627064625d, Contract: Flomies
+❗ Resource NFT is exposing increaseNounce
+---------------------------------
+Address: 0x857dc34d5e1631d3, Contract: FLOAT
+❗ Resource Collection is exposing ownedIdsFromEvent
+❗ Resource Collection is exposing borrowFLOAT
+---------------------------------
+Address: 0x917db7072ed7160b, Contract: Cryptoys
 ❗ Resource Collection is exposing withdrawBucketItem
+---------------------------------
+Address: 0x985d410b577fd4a1, Contract: Gamisodes
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x985d410b577fd4a1, Contract: Pickem
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x985d410b577fd4a1, Contract: MintStoreItem
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x985d410b577fd4a1, Contract: OpenLockerInc
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x985d410b577fd4a1, Contract: RTLStoreItem
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x985d410b577fd4a1, Contract: YoungBoysBern
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x985d410b577fd4a1, Contract: YBees
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x985d410b577fd4a1, Contract: MUMGJ
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x985d410b577fd4a1, Contract: OpenLockerIncBoneYardHuskyzClub
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x985d410b577fd4a1, Contract: Lufthaus
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0xa2526e2d9cc7f0d2, Contract: Pinnacle
+❗ Resource NFT is exposing resolveDisplayView
+❗ Resource NFT is exposing resolveExternalURLView
+❗ Resource NFT is exposing resolveTraitsView
+❗ Resource NFT is exposing resolveMediasView
+❗ Resource NFT is exposing resolveEditionsView
+❗ Resource NFT is exposing resolveSerialView
+❗ Resource NFT is exposing resolveRoyaltiesView
+❗ Resource Collection is exposing batchDeposit
+❗ Resource Collection is exposing borrowPinNFT
+---------------------------------
+Address: 0x195caada038c5806, Contract: BarterYardClubWerewolf
+❗ Resource NFT is exposing computeThumbnail
+❗ Resource Collection is exposing borrowBarterYardClubWerewolfNFT
+---------------------------------
+Address: 0x6f6702697b205c18, Contract: HWGarageCard
+❗ Resource Collection is exposing borrowHWGarageCard
+---------------------------------
+Address: 0x6f6702697b205c18, Contract: HWGaragePack
+❗ Resource Collection is exposing borrowPack
+---------------------------------
+Address: 0x6f6702697b205c18, Contract: HWGarageTokenV2
+❗ Resource Collection is exposing borrowToken
+---------------------------------
+Address: 0x6f6702697b205c18, Contract: HWGarageCardV2
+❗ Resource Collection is exposing borrowCard
+---------------------------------
+Address: 0x6f6702697b205c18, Contract: HWGaragePackV2
+❗ Resource Collection is exposing borrowPack
 
-✅ Done! 112 contracts checked in 43.981515335s
+✅ Done! 116 contracts checked in 44.061755175s
