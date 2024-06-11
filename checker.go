@@ -21,8 +21,8 @@ func Check(code string) []CheckerResult {
 
 	program, err := parser.ParseProgram(nil, []byte(code), parser.Config{})
 	if err != nil {
-		// fmt.Println(code)
-		panic(err)
+		fmt.Println(err)
+		return res
 	}
 
 	interfaces := EnumerateInterfaces(code)
