@@ -1,0 +1,1497 @@
+---------------------------------
+Address: 0xef4162279c3dabaf, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xef4162279c3dabaf_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x3357b77bbecb12b9, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x3357b77bbecb12b9_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing original
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0xe0408e51b0b970a7, Contract: ShebaHopeGrows
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xe0408e51b0b970a7_ShebaHopeGrows
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0xa340dc0a4ec828ab, Contract: ScopedNFTProviders
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xa340dc0a4ec828ab_ScopedNFTProviders
+❗ Resource ScopedNFTProvider is exposing canWithdraw
+❗ Resource ScopedNFTProvider is exposing check
+---------------------------------
+Address: 0xa340dc0a4ec828ab, Contract: ScopedFTProviders
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xa340dc0a4ec828ab_ScopedFTProviders
+❗ Resource ScopedFTProvider is exposing check
+❗ Resource ScopedFTProvider is exposing canWithdraw
+---------------------------------
+Address: 0xfe437b573d368d6a, Contract: TheNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xfe437b573d368d6a_TheNFT
+❗ Resource NFT is exposing whatAreYou
+---------------------------------
+Address: 0x2ac77abfd534b4fd, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x2ac77abfd534b4fd_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0xd3de94c8914fc06a, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd3de94c8914fc06a_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing original
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0xabd6e80be7e9682c, Contract: KlktnNFT2
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xabd6e80be7e9682c_KlktnNFT2
+❗ Resource Collection is exposing batchDeposit
+❗ Resource Admin is exposing updateNFTTemplatePriceUSD
+❗ Resource Admin is exposing updateNFTTemplatePriceFlow
+❗ Resource Admin is exposing updateNFTTemplateMintLimit
+❗ Resource Admin is exposing expireNFTTemplate
+---------------------------------
+Address: 0x5c57f79c6694797f, Contract: Flowty
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x5c57f79c6694797f_Flowty
+❗ Resource Funding is exposing repayWithPermit
+---------------------------------
+Address: 0x5257f1455ed366fe, Contract: Magnetiq
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x5257f1455ed366fe_Magnetiq
+❗ Resource NFT is exposing mapMagnetData
+❗ Resource NFT is exposing appendOptionalParams
+---------------------------------
+Address: 0x0a2fbb92a8ae5c6d, Contract: Sk8tibles
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x0a2fbb92a8ae5c6d_Sk8tibles
+❗ Resource NFT is exposing displayData
+❗ Resource NFT is exposing display
+❗ Resource NFT is exposing editions
+❗ Resource NFT is exposing serial
+❗ Resource NFT is exposing royalties
+❗ Resource NFT is exposing externalURL
+❗ Resource NFT is exposing nftCollectionData
+❗ Resource NFT is exposing nftCollectionDisplay
+❗ Resource NFT is exposing traits
+❗ Resource Collection is exposing withdrawTible
+❗ Resource Collection is exposing tibleDescriptions
+❗ Resource Collection is exposing destroyTible
+❗ Resource Producer is exposing minter
+❗ Resource Producer is exposing set
+❗ Resource Producer is exposing addSet
+❗ Resource PackMinter is exposing withdraw
+❗ Resource PackMinter is exposing mintNext
+---------------------------------
+Address: 0x87ca73a41bb50ad5, Contract: Golazos
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x87ca73a41bb50ad5_Golazos
+❗ Resource Collection is exposing batchDeposit
+❗ Resource Collection is exposing borrowMomentNFT
+---------------------------------
+Address: 0xd3df824bf81910a4, Contract: CryptoPiggo
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd3df824bf81910a4_CryptoPiggo
+❗ Resource Collection is exposing transfer
+❗ Resource Collection is exposing burn
+❗ Resource Collection is exposing borrowItem
+---------------------------------
+Address: 0xd3df824bf81910a4, Contract: CryptoPiggoPotion
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd3df824bf81910a4_CryptoPiggoPotion
+❗ Resource Collection is exposing transfer
+❗ Resource Collection is exposing burn
+---------------------------------
+Address: 0xd3df824bf81910a4, Contract: CryptoPiggoV2
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd3df824bf81910a4_CryptoPiggoV2
+❗ Resource Collection is exposing transfer
+❗ Resource Collection is exposing burn
+---------------------------------
+Address: 0x321d8fcde05f6e8c, Contract: Seussibles
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x321d8fcde05f6e8c_Seussibles
+❗ Resource NFT is exposing displayData
+❗ Resource NFT is exposing display
+❗ Resource NFT is exposing editions
+❗ Resource NFT is exposing serial
+❗ Resource NFT is exposing royalties
+❗ Resource NFT is exposing externalURL
+❗ Resource NFT is exposing nftCollectionData
+❗ Resource NFT is exposing nftCollectionDisplay
+❗ Resource NFT is exposing traits
+❗ Resource Collection is exposing withdrawTible
+❗ Resource Collection is exposing tibleDescriptions
+❗ Resource Collection is exposing destroyTible
+❗ Resource Producer is exposing minter
+❗ Resource Producer is exposing set
+❗ Resource Producer is exposing addSet
+❗ Resource PackMinter is exposing withdraw
+❗ Resource PackMinter is exposing mintNext
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x319d3bddcdefd615, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x319d3bddcdefd615_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x9d1d0d0c82bf1c59, Contract: RTLStoreItem
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x9d1d0d0c82bf1c59_RTLStoreItem
+❗ Resource Collection is exposing batchDeposit
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0xa9102e56a8b7a680, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xa9102e56a8b7a680_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0x83ed64a1d4f3833f, Contract: InceptionAvatar
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x83ed64a1d4f3833f_InceptionAvatar
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x83ed64a1d4f3833f, Contract: InceptionBlackBox
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x83ed64a1d4f3833f_InceptionBlackBox
+❗ Resource Collection is exposing batchDeposit
+❗ Resource Collection is exposing openBox
+---------------------------------
+Address: 0x83ed64a1d4f3833f, Contract: InceptionCrystal
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x83ed64a1d4f3833f_InceptionCrystal
+❗ Resource Collection is exposing batchWithdrawInceptionCrystals
+❗ Resource Collection is exposing batchDeposit
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0xc6945445cdbefec9, Contract: PackNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xc6945445cdbefec9_PackNFT
+❗ Resource PackNFTOperator is exposing createOperator
+❗ Resource PackNFTOperator is exposing setDefaultCollectionMetadata
+❗ Resource PackNFTOperator is exposing setVersion
+❗ Resource NFT is exposing totalEditions
+❗ Resource NFT is exposing _metadata
+❗ Resource NFT is exposing metadata
+❗ Resource NFT is exposing metadataDict
+---------------------------------
+Address: 0xc6945445cdbefec9, Contract: TuneGONFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xc6945445cdbefec9_TuneGONFT
+❗ Resource NFT is exposing totalEditions
+❗ Resource NFT is exposing circulatingEditions
+---------------------------------
+Address: 0x1dc37ab51a54d83f, Contract: HeroesOfTheFlow
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x1dc37ab51a54d83f_HeroesOfTheFlow
+❗ Resource NFT is exposing checkSoulbound
+---------------------------------
+Address: 0x4a9afe65f4aded46, Contract: Tibles
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x4a9afe65f4aded46_Tibles
+❗ Resource NFT is exposing displayData
+❗ Resource NFT is exposing display
+❗ Resource NFT is exposing editions
+❗ Resource NFT is exposing serial
+❗ Resource NFT is exposing royalties
+❗ Resource NFT is exposing externalURL
+❗ Resource NFT is exposing nftCollectionData
+❗ Resource NFT is exposing nftCollectionDisplay
+❗ Resource NFT is exposing traits
+❗ Resource Collection is exposing withdrawTible
+❗ Resource Collection is exposing tibleDescriptions
+❗ Resource Collection is exposing destroyTible
+❗ Resource Producer is exposing minter
+❗ Resource Producer is exposing set
+❗ Resource Producer is exposing addSet
+❗ Resource PackMinter is exposing withdraw
+❗ Resource PackMinter is exposing mintNext
+---------------------------------
+Address: 0x569087b50ab30c2a, Contract: ShipOfTheseusWarehouse
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x569087b50ab30c2a_ShipOfTheseusWarehouse
+❗ Resource Warehouse is exposing withdraw
+---------------------------------
+Address: 0x30cf5dcf6ea8d379, Contract: AeraRewards
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x30cf5dcf6ea8d379_AeraRewards
+❗ Resource Collection is exposing borrowRewardNFT
+---------------------------------
+Address: 0x30cf5dcf6ea8d379, Contract: AeraPanels
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x30cf5dcf6ea8d379_AeraPanels
+❗ Resource Collection is exposing borrowPanelNFT
+❗ Resource Collection is exposing queryActivateStatus
+---------------------------------
+Address: 0x3de89cae940f3e0a, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x3de89cae940f3e0a_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0xd8f4a6515dcabe43, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd8f4a6515dcabe43_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0xce0ebd3df46ea037, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xce0ebd3df46ea037_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0xc01fe8b7ee0a9891, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xc01fe8b7ee0a9891_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0xedf9df96c92f4595, Contract: Pinnacle
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xedf9df96c92f4595_Pinnacle
+❗ Resource NFT is exposing resolveDisplayView
+❗ Resource NFT is exposing resolveExternalURLView
+❗ Resource NFT is exposing resolveTraitsView
+❗ Resource NFT is exposing resolveMediasView
+❗ Resource NFT is exposing resolveEditionsView
+❗ Resource NFT is exposing resolveSerialView
+❗ Resource NFT is exposing resolveRoyaltiesView
+❗ Resource Collection is exposing batchDeposit
+❗ Resource Collection is exposing borrowPinNFT
+---------------------------------
+Address: 0x3c1c4b041ad18279, Contract: ScopedFTProviders
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x3c1c4b041ad18279_ScopedFTProviders
+❗ Resource ScopedFTProvider is exposing check
+❗ Resource ScopedFTProvider is exposing canWithdraw
+---------------------------------
+Address: 0x45c0949f83851642, Contract: Marbles
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x45c0949f83851642_Marbles
+❗ Resource NFT is exposing displayData
+❗ Resource NFT is exposing display
+❗ Resource NFT is exposing editions
+❗ Resource NFT is exposing serial
+❗ Resource NFT is exposing royalties
+❗ Resource NFT is exposing externalURL
+❗ Resource NFT is exposing nftCollectionData
+❗ Resource NFT is exposing nftCollectionDisplay
+❗ Resource NFT is exposing traits
+❗ Resource Collection is exposing withdrawTible
+❗ Resource Collection is exposing tibleDescriptions
+❗ Resource Collection is exposing destroyTible
+❗ Resource Producer is exposing minter
+❗ Resource Producer is exposing set
+❗ Resource Producer is exposing addSet
+❗ Resource PackMinter is exposing withdraw
+❗ Resource PackMinter is exposing mintNext
+---------------------------------
+Address: 0x054cdc03e2b159f3, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x054cdc03e2b159f3_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0x2bbcf99d0d0b346b, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x2bbcf99d0d0b346b_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x34ba81b8b761306e, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x34ba81b8b761306e_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x36c2ae37588a4023, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x36c2ae37588a4023_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0xc58af1fb084bca0b, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xc58af1fb084bca0b_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x921ea449dffec68a, Contract: FlovatarInbox
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x921ea449dffec68a_FlovatarInbox
+❗ Resource Collection is exposing borrowFlovatarContainer
+❗ Resource Collection is exposing borrowWalletContainer
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x921ea449dffec68a, Contract: FlovatarComponentTemplate
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x921ea449dffec68a_FlovatarComponentTemplate
+❗ Resource Collection is exposing deposit
+---------------------------------
+Address: 0x921ea449dffec68a, Contract: FlovatarDustCollectibleTemplate
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x921ea449dffec68a_FlovatarDustCollectibleTemplate
+❗ Resource Collection is exposing deposit
+❗ Resource Collection is exposing depositSeries
+---------------------------------
+Address: 0x3573a1b3f3910419, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x3573a1b3f3910419_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0xf4264ac8f3256818, Contract: Evolution
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xf4264ac8f3256818_Evolution
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+❗ Resource NFT is exposing tier
+---------------------------------
+Address: 0xd114186ee26b04c6, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd114186ee26b04c6_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x4bbff461fa8f6192, Contract: SocialProfileV3
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x4bbff461fa8f6192_SocialProfileV3
+❗ Resource SocialProfile is exposing emitInstalledEvent
+❗ Resource SocialProfile is exposing emitDestroyedEvent
+---------------------------------
+Address: 0x20187093790b9aef, Contract: Lufthaus
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x20187093790b9aef_Lufthaus
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x20187093790b9aef, Contract: MintStoreItem
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x20187093790b9aef_MintStoreItem
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x20187093790b9aef, Contract: Gamisodes
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x20187093790b9aef_Gamisodes
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x20187093790b9aef, Contract: YBees
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x20187093790b9aef_YBees
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x20187093790b9aef, Contract: YoungBoysBern
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x20187093790b9aef_YoungBoysBern
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x20187093790b9aef, Contract: OpenLockerIncBoneYardHuskyzClub
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x20187093790b9aef_OpenLockerIncBoneYardHuskyzClub
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x20187093790b9aef, Contract: OpenLockerInc
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x20187093790b9aef_OpenLockerInc
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x20187093790b9aef, Contract: Pickem
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x20187093790b9aef_Pickem
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x4f7ff543c936072b, Contract: OneShots
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x4f7ff543c936072b_OneShots
+❗ Resource NFT is exposing displayData
+❗ Resource NFT is exposing display
+❗ Resource NFT is exposing editions
+❗ Resource NFT is exposing serial
+❗ Resource NFT is exposing royalties
+❗ Resource NFT is exposing externalURL
+❗ Resource NFT is exposing nftCollectionData
+❗ Resource NFT is exposing nftCollectionDisplay
+❗ Resource NFT is exposing traits
+❗ Resource Collection is exposing withdrawTible
+❗ Resource Collection is exposing tibleDescriptions
+❗ Resource Collection is exposing destroyTible
+❗ Resource Producer is exposing minter
+❗ Resource Producer is exposing set
+❗ Resource Producer is exposing addSet
+❗ Resource PackMinter is exposing withdraw
+❗ Resource PackMinter is exposing mintNext
+---------------------------------
+Address: 0xe81193c424cfd3fb, Contract: Doodles
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xe81193c424cfd3fb_Doodles
+❗ Resource NFT is exposing borrowWearable
+❗ Resource NFT is exposing borrowName
+❗ Resource NFT is exposing borrowWearableViewResolver
+❗ Resource NFT is exposing calculateDNA
+❗ Resource NFT is exposing calculateDNACustom
+---------------------------------
+Address: 0xe81193c424cfd3fb, Contract: OpenDoodlePacks
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xe81193c424cfd3fb_OpenDoodlePacks
+❗ Resource NFT is exposing canReveal
+---------------------------------
+Address: 0x30c7989ef730601d, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x30c7989ef730601d_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x481914259cb9174e, Contract: Aggretsuko
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x481914259cb9174e_Aggretsuko
+❗ Resource NFT is exposing displayData
+❗ Resource NFT is exposing display
+❗ Resource NFT is exposing editions
+❗ Resource NFT is exposing serial
+❗ Resource NFT is exposing royalties
+❗ Resource NFT is exposing externalURL
+❗ Resource NFT is exposing nftCollectionData
+❗ Resource NFT is exposing nftCollectionDisplay
+❗ Resource NFT is exposing traits
+❗ Resource Collection is exposing withdrawTible
+❗ Resource Collection is exposing tibleDescriptions
+❗ Resource Collection is exposing destroyTible
+❗ Resource Producer is exposing minter
+❗ Resource Producer is exposing set
+❗ Resource Producer is exposing addSet
+❗ Resource PackMinter is exposing withdraw
+❗ Resource PackMinter is exposing mintNext
+Parsing failed:
+error: invalid end of string literal: missing '"'
+  --> :73:40
+   |
+73 |             if s == "\"" || s == "\\\" {
+   |                                         ^
+
+error: expected token '{'
+  --> :74:12
+   |
+74 |             res = res.concat("\\\")
+   |             ^
+
+Parsing failed:
+error: unexpected token: identifier
+ --> :6:0
+  |
+6 | ew_line_in_string// /\\__/ /| (_| ||   < | |_| || |_ | (_| || |   | (_) |
+  | ^
+
+Parsing failed:
+error: unexpected token: identifier
+ --> :6:0
+  |
+6 | ew_line_in_string// /\\__/ /| (_| ||   < | |_| || |_ | (_| || |   | (_) |
+  | ^
+
+Parsing failed:
+error: unexpected token: identifier
+ --> :6:0
+  |
+6 | ew_line_in_string// /\\__/ /| (_| ||   < | |_| || |_ | (_| || |   | (_) |
+  | ^
+
+---------------------------------
+Address: 0xd0dd3865a69b30b1, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd0dd3865a69b30b1_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x1437d34056f6a49d, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x1437d34056f6a49d_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0xafb8473247d9354c, Contract: FlowNia
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xafb8473247d9354c_FlowNia
+❗ Resource Collection is exposing borrowFlowNia
+---------------------------------
+Address: 0xe4cf4bdc1751c65d, Contract: AllDay
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xe4cf4bdc1751c65d_AllDay
+❗ Resource Collection is exposing batchDeposit
+❗ Resource Collection is exposing borrowMomentNFT
+---------------------------------
+Address: 0x15a918087ab12d86, Contract: TokenList
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x15a918087ab12d86_TokenList
+❗ Resource FungibleTokenReviewer is exposing createCustomizedViewResolver
+---------------------------------
+Address: 0xcea0c362c4ceb422, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xcea0c362c4ceb422_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x2d4c3caffbeab845, Contract: FLOAT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x2d4c3caffbeab845_FLOAT
+❗ Resource Collection is exposing ownedIdsFromEvent
+❗ Resource Collection is exposing borrowFLOAT
+❗ Resource FLOATEvent is exposing userHasClaimed
+❗ Resource FLOATEvent is exposing userCanMint
+❗ Resource FLOATEvent is exposing claim
+❗ Resource FLOATEvent is exposing purchase
+❗ Resource FLOATEvents is exposing borrowPublicEventRef
+Parsing failed:
+error: unexpected identifier
+  --> :19:0
+   |
+19 | ew_line_in_string  //  /_/    \\_\\___|\\__|_|\\___/|_| |_|___/   
+   | ^
+
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+---------------------------------
+Address: 0x3a15920084d609b9, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x3a15920084d609b9_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0x37b92d1580b5c0b5, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x37b92d1580b5c0b5_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x807c3d470888cc48, Contract: Flunks
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x807c3d470888cc48_Flunks
+❗ Resource Collection is exposing batchDeposit
+---------------------------------
+Address: 0x807c3d470888cc48, Contract: Backpack
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x807c3d470888cc48_Backpack
+❗ Resource Collection is exposing batchDeposit
+❗ Resource Collection is exposing removePatches
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x848d8db862439fc6, Contract: FraggleRock
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x848d8db862439fc6_FraggleRock
+❗ Resource NFT is exposing displayData
+❗ Resource NFT is exposing display
+❗ Resource NFT is exposing editions
+❗ Resource NFT is exposing serial
+❗ Resource NFT is exposing royalties
+❗ Resource NFT is exposing externalURL
+❗ Resource NFT is exposing nftCollectionData
+❗ Resource NFT is exposing nftCollectionDisplay
+❗ Resource NFT is exposing traits
+❗ Resource Collection is exposing withdrawTible
+❗ Resource Collection is exposing tibleDescriptions
+❗ Resource Collection is exposing destroyTible
+❗ Resource Producer is exposing minter
+❗ Resource Producer is exposing set
+❗ Resource Producer is exposing addSet
+❗ Resource PackMinter is exposing withdraw
+❗ Resource PackMinter is exposing mintNext
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x84509c2a28c0de41, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x84509c2a28c0de41_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0xda3e2af72eee7aef, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xda3e2af72eee7aef_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x699bf284101a76f1, Contract: JollyJokers
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x699bf284101a76f1_JollyJokers
+❗ Resource Collection is exposing borrowJollyJokers
+---------------------------------
+Address: 0x0b2a3299cc857e29, Contract: TopShot
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x0b2a3299cc857e29_TopShot
+❗ Resource NFT is exposing mapPlayData
+❗ Resource NFT is exposing appendOptionalParams
+---------------------------------
+Address: 0x0b2a3299cc857e29, Contract: FastBreakV1
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x0b2a3299cc857e29_FastBreakV1
+❗ Resource NFT is exposing points
+---------------------------------
+Address: 0x91b4cc10b2aa0e75, Contract: AllDaySeasonal
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x91b4cc10b2aa0e75_AllDaySeasonal
+❗ Resource Collection is exposing batchDeposit
+❗ Resource Collection is exposing borrowAllDaySeasonal
+---------------------------------
+Address: 0x0169af3078d4efff, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x0169af3078d4efff_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0xfc91de5e6566cc7c, Contract: GarmentNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xfc91de5e6566cc7c_GarmentNFT
+❗ Resource Collection is exposing batchWithdraw
+---------------------------------
+Address: 0xfc91de5e6566cc7c, Contract: MaterialNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xfc91de5e6566cc7c_MaterialNFT
+❗ Resource Collection is exposing batchWithdraw
+---------------------------------
+Address: 0xfc91de5e6566cc7c, Contract: ItemNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xfc91de5e6566cc7c_ItemNFT
+❗ Resource NFT is exposing borrowGarment
+❗ Resource NFT is exposing borrowMaterial
+❗ Resource Collection is exposing split
+❗ Resource Collection is exposing batchWithdraw
+---------------------------------
+Address: 0x1717d6b5ee65530a, Contract: MnemonicPoetry
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x1717d6b5ee65530a_MnemonicPoetry
+❗ Resource PoetryCollection is exposing findMnemonic
+❗ Resource PoetryCollection is exposing writePoem
+---------------------------------
+Address: 0xde6213b08c5f1c02, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xde6213b08c5f1c02_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0xd306b26d28e8d1b0, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd306b26d28e8d1b0_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0xc7407d5d7b6f0ea7, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xc7407d5d7b6f0ea7_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0xee4567ab7f63abf2, Contract: BlovizeNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xee4567ab7f63abf2_BlovizeNFT
+❗ Resource Collection is exposing borrowBlovizeNFT
+---------------------------------
+Address: 0xbdbe70269ecb648a, Contract: Gift
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xbdbe70269ecb648a_Gift
+❗ Resource NFT is exposing recognize
+---------------------------------
+Address: 0x395c3366ce346ac0, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x395c3366ce346ac0_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0xcfdb40401cf134b4, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xcfdb40401cf134b4_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x2503d24827cf18d8, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x2503d24827cf18d8_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x2fc0d080618ee419, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x2fc0d080618ee419_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x1dd5caae66e2c440, Contract: FLOATEventSeries
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x1dd5caae66e2c440_FLOATEventSeries
+❗ Resource EventSeriesBuilder is exposing borrowEventSeries
+---------------------------------
+Address: 0x2478516afff0984e, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x2478516afff0984e_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+Parsing failed:
+error: invalid end of string literal: missing '"'
+  --> :73:40
+   |
+73 |             if s == "\"" || s == "\\\" {
+   |                                         ^
+
+error: expected token '{'
+  --> :74:12
+   |
+74 |             res = res.concat("\\\")
+   |             ^
+
+---------------------------------
+Address: 0x36b1a29d10c00c1a, Contract: Snapshot
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x36b1a29d10c00c1a_Snapshot
+❗ Resource Album is exposing snapshot
+❗ Resource Album is exposing importSnapshot
+❗ Resource Album is exposing exportSnapshot
+---------------------------------
+Address: 0x280df619a6107051, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x280df619a6107051_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x21ed482619b1cad4, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x21ed482619b1cad4_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: FIND
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_FIND
+❗ Resource LeaseCollection is exposing borrow
+❗ Resource LeaseCollection is exposing borrowAuction
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: Dandy
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_Dandy
+❗ Resource NFT is exposing resolveDisplay
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: FindMarketSale
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_FindMarketSale
+❗ Resource SaleItemCollection is exposing borrow
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: FindMarketDirectOfferEscrow
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_FindMarketDirectOfferEscrow
+❗ Resource SaleItemCollection is exposing borrow
+❗ Resource MarketBidCollection is exposing borrowBid
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: FindMarketDirectOfferSoft
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_FindMarketDirectOfferSoft
+❗ Resource SaleItemCollection is exposing borrow
+❗ Resource MarketBidCollection is exposing borrowBid
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: FindMarketAuctionEscrow
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_FindMarketAuctionEscrow
+❗ Resource SaleItemCollection is exposing borrow
+❗ Resource MarketBidCollection is exposing fulfillAuction
+❗ Resource MarketBidCollection is exposing borrowBid
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: FindMarketAuctionSoft
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_FindMarketAuctionSoft
+❗ Resource SaleItemCollection is exposing borrow
+❗ Resource MarketBidCollection is exposing fulfillAuction
+❗ Resource MarketBidCollection is exposing borrowBid
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: FindLeaseMarketSale
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_FindLeaseMarketSale
+❗ Resource SaleItemCollection is exposing borrow
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: FindLeaseMarketAuctionSoft
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_FindLeaseMarketAuctionSoft
+❗ Resource SaleItemCollection is exposing borrow
+❗ Resource MarketBidCollection is exposing borrowBid
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: FindLeaseMarketDirectOfferSoft
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_FindLeaseMarketDirectOfferSoft
+❗ Resource SaleItemCollection is exposing borrow
+❗ Resource MarketBidCollection is exposing fulfillDirectOffer
+❗ Resource MarketBidCollection is exposing borrowBid
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: NameVoucher
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_NameVoucher
+❗ Resource Collection is exposing contains
+---------------------------------
+Address: 0x097bafa4e0b48eef, Contract: CharityNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x097bafa4e0b48eef_CharityNFT
+❗ Resource NFT is exposing parseUInt64
+Parsing failed:
+error: unexpected token: identifier
+ --> :9:0
+  |
+9 | ew_line_in_string// /\\ \\L\\ \\ \\ \\/\\  __/\\ \\ \\_/ \\ \\ \\_/\\__, `
+  | ^
+
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+Parsing failed:
+error: restricted types have been removed; replace with the concrete type or an equivalent intersection type
+  --> :46:41
+   |
+46 |     access(all) let thumbnail: AnyStruct{MetadataViews.File}
+   |                                          ^^^^^^^^^^^^^
+
+---------------------------------
+Address: 0x592eb32b47d8b85f, Contract: FlowtyWrapped
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x592eb32b47d8b85f_FlowtyWrapped
+❗ Resource Collection is exposing deposit
+---------------------------------
+Address: 0xb9cd93d3bb31b497, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xb9cd93d3bb31b497_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+Parsing failed:
+error: invalid end of string literal: missing '"'
+  --> :80:40
+   |
+80 |             if s == "\"" || s == "\\\" {
+   |                                         ^
+
+error: expected token '{'
+  --> :81:12
+   |
+81 |             res = res.concat("\\\")
+   |             ^
+
+---------------------------------
+Address: 0xa45ead1cf1ca9eda, Contract: FlowRewards
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xa45ead1cf1ca9eda_FlowRewards
+❗ Resource Collection is exposing initLock
+---------------------------------
+Address: 0xf887ece39166906e, Contract: Car
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xf887ece39166906e_Car
+❗ Resource Collection is exposing borrowArt
+---------------------------------
+Address: 0xf887ece39166906e, Contract: CarClub
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xf887ece39166906e_CarClub
+❗ Resource NFT is exposing revealThumbnail
+❗ Resource Collection is exposing borrowCarClub
+---------------------------------
+Address: 0xf887ece39166906e, Contract: Helmet
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xf887ece39166906e_Helmet
+❗ Resource Collection is exposing borrowArt
+---------------------------------
+Address: 0xf887ece39166906e, Contract: Tires
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xf887ece39166906e_Tires
+❗ Resource Collection is exposing borrowArt
+---------------------------------
+Address: 0xf887ece39166906e, Contract: Wheel
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xf887ece39166906e_Wheel
+❗ Resource Collection is exposing borrowArt
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x233eb012d34b0070, Contract: Flowns
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x233eb012d34b0070_Flowns
+❗ Resource Admin is exposing renewDomain
+---------------------------------
+Address: 0x282cd67844f046cf, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x282cd67844f046cf_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+Parsing failed:
+error: invalid end of string literal: missing '"'
+  --> :73:40
+   |
+73 |             if s == "\"" || s == "\\\" {
+   |                                         ^
+
+error: expected token '{'
+  --> :74:16
+   |
+74 |                 res = res.concat("\\\")
+   |                 ^
+
+---------------------------------
+Address: 0xd796ff17107bbff6, Contract: Content
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd796ff17107bbff6_Content
+❗ Resource Collection is exposing deposit
+---------------------------------
+Address: 0xd796ff17107bbff6, Contract: Auction
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd796ff17107bbff6_Auction
+❗ Resource AuctionCollection is exposing keys
+---------------------------------
+Address: 0xd796ff17107bbff6, Contract: Marketplace
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd796ff17107bbff6_Marketplace
+❗ Resource SaleCollection is exposing borrowArt
+---------------------------------
+Address: 0x058ab2d5d9808702, Contract: BLUES
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x058ab2d5d9808702_BLUES
+❗ Resource NFT is exposing setAttendance
+❗ Resource Collection is exposing markAttendance
+---------------------------------
+Address: 0x2096cb04c18e4a42, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x2096cb04c18e4a42_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x09e03b1f871b3513, Contract: TheFabricantS1GarmentNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x09e03b1f871b3513_TheFabricantS1GarmentNFT
+❗ Resource Collection is exposing batchWithdraw
+---------------------------------
+Address: 0x09e03b1f871b3513, Contract: TheFabricantS1MaterialNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x09e03b1f871b3513_TheFabricantS1MaterialNFT
+❗ Resource Collection is exposing batchWithdraw
+---------------------------------
+Address: 0x09e03b1f871b3513, Contract: TheFabricantS1ItemNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x09e03b1f871b3513_TheFabricantS1ItemNFT
+❗ Resource NFT is exposing borrowGarment
+❗ Resource NFT is exposing borrowMaterial
+❗ Resource Collection is exposing split
+❗ Resource Collection is exposing batchWithdraw
+---------------------------------
+Address: 0x09e03b1f871b3513, Contract: TheFabricantMarketplace
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x09e03b1f871b3513_TheFabricantMarketplace
+❗ Resource Listing is exposing purchase
+❗ Resource Offer is exposing accept
+interface FungibleToken.Vault not staged
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0xca5c31c0c03e11be, Contract: SportvatarTemplate
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xca5c31c0c03e11be_SportvatarTemplate
+❗ Resource Collection is exposing deposit
+❗ Resource Collection is exposing depositSeries
+---------------------------------
+Address: 0xca5c31c0c03e11be, Contract: Sportvatar
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xca5c31c0c03e11be_Sportvatar
+❗ Resource Collection is exposing borrowSportvatarPrivate
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x3f90b3217be44e47, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x3f90b3217be44e47_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing originalMedia
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing maxEditions
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x3c931f8c4c30be9c, Contract: Collectible
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x3c931f8c4c30be9c_Collectible
+❗ Resource NFT is exposing contentID
+❗ Resource NFT is exposing original
+❗ Resource NFT is exposing serialNumber
+❗ Resource NFT is exposing creatorAddress
+❗ Resource NFT is exposing editionName
+❗ Resource NFT is exposing editionNumber
+❗ Resource NFT is exposing collectionName
+❗ Resource NFT is exposing collectionDescription
+❗ Resource NFT is exposing collectionURL
+❗ Resource NFT is exposing squareImage
+❗ Resource NFT is exposing bannerImage
+---------------------------------
+Address: 0x0b80e42aaab305f0, Contract: MikoSeaMarketHistoryV2
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x0b80e42aaab305f0_MikoSeaMarketHistoryV2
+❗ Resource Admin is exposing addTransaction
+❗ Resource Admin is exposing addTransactionWithoutFee
+❗ Resource Admin is exposing updateMetadata
+❗ Resource Admin is exposing updateMessage
+❗ Resource Admin is exposing createRequestRevenue
+❗ Resource Admin is exposing updateStatusRevenue
+---------------------------------
+Address: 0x0b80e42aaab305f0, Contract: MikoSeaMarket
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x0b80e42aaab305f0_MikoSeaMarket
+❗ Resource Storefront is exposing createOrder
+❗ Resource Storefront is exposing removeOrder
+❗ Resource Admin is exposing cleanup
+❗ Resource Admin is exposing cleanAll
+❗ Resource Admin is exposing onPaymentSuccess
+❗ Resource Admin is exposing purchaseForUser
+---------------------------------
+Address: 0x0b80e42aaab305f0, Contract: MIKOSEANFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x0b80e42aaab305f0_MIKOSEANFT
+❗ Resource Collection is exposing batchWithdraw
+❗ Resource Collection is exposing transfer
+---------------------------------
+Address: 0x0b80e42aaab305f0, Contract: MIKOSEANFTV2
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x0b80e42aaab305f0_MIKOSEANFTV2
+❗ Resource Collection is exposing transfer
+❗ Resource Collection is exposing burn
+❗ Resource Collection is exposing createComment
+❗ Resource Collection is exposing updateComment
+❗ Resource Collection is exposing deleteComment
+❗ Resource Collection is exposing setInMarket
+❗ Resource Collection is exposing updateMetadata
+---------------------------------
+Address: 0x0b80e42aaab305f0, Contract: MikoSeaNftAuctionV2
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x0b80e42aaab305f0_MikoSeaNftAuctionV2
+❗ Resource AuctionCollection is exposing extendAllAuctionsWith
+❗ Resource AuctionCollection is exposing extendAuctionWith
+❗ Resource AuctionCollection is exposing keys
+❗ Resource AuctionCollection is exposing createAuction
+❗ Resource AuctionCollection is exposing cancelAuction
+❗ Resource AuctionCollection is exposing completeAuction
+❗ Resource AuctionCollection is exposing sendNftToWiner
+---------------------------------
+Address: 0x3ee7ea4af5232868, Contract: NFTProviderAggregator
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x3ee7ea4af5232868_NFTProviderAggregator
+❗ Resource Aggregator is exposing borrowNFTCollection
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x790b8e6b2fa3760b, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x790b8e6b2fa3760b_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x1b77ba4b414de352, Contract: StakingNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x1b77ba4b414de352_StakingNFT
+❗ Resource Pool is exposing eligibilityCheck
+---------------------------------
+Address: 0x7752ea736384322f, Contract: TheFabricantPrimalRave
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x7752ea736384322f_TheFabricantPrimalRave
+❗ Resource NFT is exposing updateIsTraitRevealable
+❗ Resource PublicMinter is exposing changeIsOpenAccess
+❗ Resource PublicMinter is exposing changeIsAccessListOnly
+❗ Resource PublicMinter is exposing changeMintingIsOpen
+❗ Resource PublicMinter is exposing setAccessListId
+❗ Resource PublicMinter is exposing setPaymentAmount
+❗ Resource PublicMinter is exposing setMinterMintLimit
+❗ Resource PublicMinter is exposing updateTypeRestrictions
+---------------------------------
+Address: 0x7752ea736384322f, Contract: TheFabricantKapers
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x7752ea736384322f_TheFabricantKapers
+❗ Resource NFT is exposing updateIsTraitRevealable
+❗ Resource PublicMinter is exposing changeIsOpenAccess
+❗ Resource PublicMinter is exposing changeIsAccessListOnly
+❗ Resource PublicMinter is exposing changeMintingIsOpen
+❗ Resource PublicMinter is exposing setAccessListId
+❗ Resource PublicMinter is exposing setPaymentAmount
+❗ Resource PublicMinter is exposing setMinterMintLimit
+❗ Resource PublicMinter is exposing updateTypeRestrictions
+---------------------------------
+Address: 0x7752ea736384322f, Contract: TheFabricantXXories
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x7752ea736384322f_TheFabricantXXories
+❗ Resource NFT is exposing updateIsTraitRevealable
+❗ Resource PublicMinter is exposing changeIsOpenAccess
+❗ Resource PublicMinter is exposing changeIsAccessListOnly
+❗ Resource PublicMinter is exposing changeMintingIsOpen
+❗ Resource PublicMinter is exposing setAccessListId
+❗ Resource PublicMinter is exposing setPaymentAmount
+❗ Resource PublicMinter is exposing setMinterMintLimit
+❗ Resource PublicMinter is exposing updateTypeRestrictions
+---------------------------------
+Address: 0x7752ea736384322f, Contract: TheFabricantS2GarmentNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x7752ea736384322f_TheFabricantS2GarmentNFT
+❗ Resource Collection is exposing batchWithdraw
+---------------------------------
+Address: 0x7752ea736384322f, Contract: TheFabricantS2MaterialNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x7752ea736384322f_TheFabricantS2MaterialNFT
+❗ Resource Collection is exposing batchWithdraw
+---------------------------------
+Address: 0x7752ea736384322f, Contract: TheFabricantS2ItemNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x7752ea736384322f_TheFabricantS2ItemNFT
+❗ Resource NFT is exposing borrowGarment
+❗ Resource NFT is exposing borrowMaterial
+❗ Resource Collection is exposing split
+❗ Resource Collection is exposing batchWithdraw
+---------------------------------
+Address: 0x7752ea736384322f, Contract: HighsnobietyNotInParis
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x7752ea736384322f_HighsnobietyNotInParis
+❗ Resource NFT is exposing updateIsTraitRevealable
+❗ Resource PublicMinter is exposing changeIsOpenAccess
+❗ Resource PublicMinter is exposing changeIsAccessListOnly
+❗ Resource PublicMinter is exposing changeMintingIsOpen
+❗ Resource PublicMinter is exposing setAccessListId
+❗ Resource PublicMinter is exposing setPaymentAmount
+❗ Resource PublicMinter is exposing setMinterMintLimit
+❗ Resource PublicMinter is exposing updateTypeRestrictions
+---------------------------------
+Address: 0x7752ea736384322f, Contract: Weekday
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x7752ea736384322f_Weekday
+❗ Resource NFT is exposing updateIsTraitRevealable
+❗ Resource PublicMinter is exposing changeIsOpenAccess
+❗ Resource PublicMinter is exposing changeIsAccessListOnly
+❗ Resource PublicMinter is exposing changeMintingIsOpen
+❗ Resource PublicMinter is exposing setAccessListId
+❗ Resource PublicMinter is exposing setPaymentAmount
+❗ Resource PublicMinter is exposing setMinterMintLimit
+❗ Resource PublicMinter is exposing updateTypeRestrictions
+---------------------------------
+Address: 0xd2abb5dbf5e08666, Contract: FixesWrappedNFT
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd2abb5dbf5e08666_FixesWrappedNFT
+❗ Resource NFT is exposing borrowInscriptionPublic
+---------------------------------
+Address: 0xd2abb5dbf5e08666, Contract: FixesFungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd2abb5dbf5e08666_FixesFungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0xd2abb5dbf5e08666, Contract: FixesTradablePool
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd2abb5dbf5e08666_FixesTradablePool
+❗ Resource TradableLiquidityPool is exposing borrowSwapPairRef
+❗ Resource TradableLiquidityPool is exposing borrowTokenGlobalPublic
+---------------------------------
+Address: 0xd2abb5dbf5e08666, Contract: FRC20Staking
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd2abb5dbf5e08666_FRC20Staking
+❗ Resource DelegatorRecord is exposing entriesLength
+---------------------------------
+Address: 0xd2abb5dbf5e08666, Contract: FRC20FungibleToken
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0xd2abb5dbf5e08666_FRC20FungibleToken
+❗ Resource Vault is exposing chargeDNAMutatableAttempts
+---------------------------------
+Address: 0x28abb9f291cadaf2, Contract: BarterYardClubWerewolf
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x28abb9f291cadaf2_BarterYardClubWerewolf
+❗ Resource NFT is exposing computeThumbnail
+❗ Resource Collection is exposing borrowBarterYardClubWerewolfNFT
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+---------------------------------
+Address: 0x5b82f21c0edf76e3, Contract: StarlyCard
+Staged Code: https://f.dnz.dev/0x56100d46aa9b0212/0x5b82f21c0edf76e3_StarlyCard
+❗ Resource MinterProxy is exposing mintNFT
+❗ Resource MinterProxy is exposing cloneNFT
+Parsing failed:
+error: unexpected identifier
+   --> :521:0
+    |
+521 | ew_line_in_string    //  | |  | |_| | | | | (_| | | | (_| | \\__ \\  __/
+    | ^
+
+interface Minter not implemented in Toucans
+
+✅ Done! 1380 contracts checked in 3m10.125077662s

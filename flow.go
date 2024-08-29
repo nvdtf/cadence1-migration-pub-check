@@ -13,13 +13,16 @@ import (
 func ListStagedContracts() map[string][]string {
 
 	ctx := context.Background()
-	flowClient, err := http.NewClient(http.TestnetHost)
+	// flowClient, err := http.NewClient(http.TestnetHost)
+	flowClient, err := http.NewClient(http.MainnetHost)
 	if err != nil {
 		panic(err)
 	}
 
 	script := []byte(`
-		import MigrationContractStaging from 0x2ceae959ed1a7e7a
+		// testnet
+		// import MigrationContractStaging from 0x2ceae959ed1a7e7a
+		import MigrationContractStaging from 0x56100d46aa9b0212
 
 		access(all) fun main(): {Address: [String]} {
 			return MigrationContractStaging.getAllStagedContracts()
@@ -64,7 +67,7 @@ func ListStagedContracts() map[string][]string {
 func GetStagedContract(address string, name string) (string, bool) {
 
 	// fungible token
-	if address == "9a0766d93b6608b7" && name == "FungibleToken" {
+	if (address == "9a0766d93b6608b7" || address == "f233dcee88fe0abe") && name == "FungibleToken" {
 		return GetStagedFungibleToken(), true
 	}
 
@@ -74,23 +77,26 @@ func GetStagedContract(address string, name string) (string, bool) {
 	}
 
 	// view resolver
-	if address == "631e88ae7f1d7c20" && name == "ViewResolver" {
+	if (address == "631e88ae7f1d7c20" || address == "1d7e57aa55817448") && name == "ViewResolver" {
 		return GetStagedViewResolver(), true
 	}
 
 	// burner
-	if address == "9a0766d93b6608b7" && name == "Burner" {
+	if (address == "9a0766d93b6608b7" || address == "f233dcee88fe0abe") && name == "Burner" {
 		return GetStagedBurner(), true
 	}
 
 	ctx := context.Background()
-	flowClient, err := http.NewClient(http.TestnetHost)
+	// flowClient, err := http.NewClient(http.TestnetHost)
+	flowClient, err := http.NewClient(http.MainnetHost)
 	if err != nil {
 		panic(err)
 	}
 
 	script := []byte(`
-		import MigrationContractStaging from 0x2ceae959ed1a7e7a
+		// testnet
+		// import MigrationContractStaging from 0x2ceae959ed1a7e7a
+		import MigrationContractStaging from 0x56100d46aa9b0212
 
 		access(all) fun main(contractAddress: Address, contractName: String): String? {
 			return MigrationContractStaging.getStagedContractCode(address: contractAddress, name: contractName)

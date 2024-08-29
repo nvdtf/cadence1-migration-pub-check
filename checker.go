@@ -104,7 +104,8 @@ func EnumerateInterfaces(code string) map[string][]string {
 
 	program, err := parser.ParseProgram(nil, []byte(code), parser.Config{})
 	if err != nil {
-		panic(err)
+		fmt.Println(err)
+		return nil
 	}
 
 	result := make(map[string][]string)
